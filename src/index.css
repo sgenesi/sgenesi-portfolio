@@ -13,9 +13,10 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
+  --primary: #6931c3;
+  --secondary: #73efdd;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #6931c3;
@@ -212,7 +213,12 @@ textarea {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  height: 300px;
+  width: 300px;
+  border: 6px solid var(--secondary);
 }
+
+
 
 .my-5 {
   margin-top: var(--spacing-five);
