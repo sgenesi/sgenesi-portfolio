@@ -3,25 +3,30 @@ import React from 'react';
 function Nav() {
 
     return (
-        <header>
-            <h2>
-                <a href="/">
-                    <span role="img" aria-label="heart">🤍</span> Staci Genesi
-                </a>
-            </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about">
-                            About Me
-                        </a>
-                    </li>
-                    <li>
+        <nav>
+            <ul className="flex-row">
+                <li className="mx-2">
+                    <a href="#about">
+                        <span>About Me</span>
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#projects">
+                        <span>My Projects</span>
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#contact">
                         <span>Contact</span>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#resume">
+                        <span>Resume</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     );
 }
 

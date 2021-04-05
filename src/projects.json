@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Budget Tracker",
+        "deployed": "https://peaceful-wave-50059.herokuapp.com/",
+        "github": "https://github.com/sgenesi/budget-tracker"
+    },
+    {
+        "title": "Coding Quiz",
+        "deployed": "https://sgenesi.github.io/coding-quiz/",
+        "github": "https://github.com/sgenesi/coding-quiz"
+    },
+    {
+        "title": "Date Night Generator",
+        "deployed": "https://quaylas.github.io/datenightgenerator/",
+        "github": "https://github.com/quaylas/datenightgenerator"
+    },
+    {
+        "title": "Note Taker",
+        "deployed": "https://mysterious-stream-58547.herokuapp.com/notes",
+        "github": "https://github.com/sgenesi/note-taker"
+    },
+    {
+        "title": "Password Generator",
+        "deployed": "https://sgenesi.github.io/random-password-generator/",
+        "github": "https://github.com/sgenesi/random-password-generator"
+    },
+    {
+        "title": "Run Buddy",
+        "deployed": "https://lernantino.github.o/run-buddy/",
+        "github": "https://github.com/sgenesi/run-buddy"
+    },
+    {
+        "title": "Sugar Rush Soda Shop",
+        "deployed": "https://blooming-harbor-63482.herokuapp.com/",
+        "github": "https://github.com/jleatham78/sugar-rush"
+    },
+    {
+        "title": "Weather Dashboard",
+        "deployed": "https://sgenesi.github.io/weather-dashboard/",
+        "github": "https://github.com/sgenesi/weather-dashboard"
+    }
+]
