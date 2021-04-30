@@ -2,30 +2,36 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav'
 import About from './components/About';
-import Project from './components/Project';
-import projects from './projects.json';
-import Wrapper from './components/Wrapper';
+// import Projects from './components/Projects';
 import './App.css';
 
 function App() {
+  const [categories] = useState([
+    {
+      name: "projects",
+      description: "Take a look at some of my work.",
+    },
+    { name: "resume", description: "Take a look at my resume and my proficiencies." },
+  ]);
 
-  const [projectList, setProjectList] = useState(projects);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
+    <div className="container">
       <Header>
-        <Nav></Nav>
+        <Nav
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        ></Nav>
       </Header>
       <main>
-        <About></About>
-        <Wrapper>
-          <h1 className="title">Projects</h1>
-          {projectList.map(project => (
-            <Project title={project.title} photo={project.photo} deployed={project.deployed} github={project.github} />
-          ))}
-        </Wrapper>
+        <div>
+          {/* <Projects currentCategory={currentCategory}></Projects> */}
+          <About></About>
+        </div>
       </main>
-    </div>
+    </div >
   );
 }
 

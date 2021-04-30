@@ -16,7 +16,7 @@ main {
 
 :root {
   --primary: #fafafa;
-  --secondary: #6931c3;
+  --secondary: black;
   --tertiary: #81ffdb;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -100,7 +100,7 @@ header {
 
 
 header a {
-  color: var(--secondary);
+  color:  #6931c3;
 }
 
 button {
@@ -198,6 +198,12 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+  color: #6931c3;
+}
+
+.mx-2:hover {
+  text-decoration: none;
+  color: var(--tertiary);
 }
 
 .my-1 {
@@ -208,8 +214,9 @@ textarea {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width:500px;
+  align-items: center;
   border: 6px solid var(--tertiary);
 }
 
@@ -238,11 +245,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -254,9 +256,9 @@ textarea {
   background: #fff;
   border-radius: 2px;
   height: 325px;
-  margin: 1rem;
+  margin: 2rem;
   position: relative;
-  width: 325px;
+  width: 350px;
   box-shadow: 0 3px 6px #56cfe0, 0 3px 6px #56cfe0;
   text-align: left;
 }
@@ -275,7 +277,7 @@ textarea {
 .card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .card > .content > ul {
@@ -309,6 +311,6 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: #6931c3;
 }
 
