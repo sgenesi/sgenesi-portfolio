@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/sgenesi-portfolio/static/css/main.d5d36eed.chunk.css",
+    "main.js": "/sgenesi-portfolio/static/js/main.1928c8b3.chunk.js",
+    "main.js.map": "/sgenesi-portfolio/static/js/main.1928c8b3.chunk.js.map",
+    "runtime-main.js": "/sgenesi-portfolio/static/js/runtime-main.de230aee.js",
+    "runtime-main.js.map": "/sgenesi-portfolio/static/js/runtime-main.de230aee.js.map",
+    "static/js/2.5aa14986.chunk.js": "/sgenesi-portfolio/static/js/2.5aa14986.chunk.js",
+    "static/js/2.5aa14986.chunk.js.map": "/sgenesi-portfolio/static/js/2.5aa14986.chunk.js.map",
+    "static/js/3.27e4cf18.chunk.js": "/sgenesi-portfolio/static/js/3.27e4cf18.chunk.js",
+    "static/js/3.27e4cf18.chunk.js.map": "/sgenesi-portfolio/static/js/3.27e4cf18.chunk.js.map",
+    "index.html": "/sgenesi-portfolio/index.html",
+    "static/css/main.d5d36eed.chunk.css.map": "/sgenesi-portfolio/static/css/main.d5d36eed.chunk.css.map",
+    "static/js/2.5aa14986.chunk.js.LICENSE.txt": "/sgenesi-portfolio/static/js/2.5aa14986.chunk.js.LICENSE.txt",
+    "static/media/Staci_Genesi.pdf": "/sgenesi-portfolio/static/media/Staci_Genesi.2e3743cd.pdf",
+    "static/media/budgettracker.png": "/sgenesi-portfolio/static/media/budgettracker.496ccbc8.png",
+    "static/media/codingquiz.png": "/sgenesi-portfolio/static/media/codingquiz.244ceff7.png",
+    "static/media/cover.png": "/sgenesi-portfolio/static/media/cover.bb1b0f4d.png",
+    "static/media/datenightgenerator.png": "/sgenesi-portfolio/static/media/datenightgenerator.733cdd31.png",
+    "static/media/github-logo.5c3b8bb9.png": "/sgenesi-portfolio/static/media/github-logo.5c3b8bb9.png",
+    "static/media/instagram-logo.f6190a1a.png": "/sgenesi-portfolio/static/media/instagram-logo.f6190a1a.png",
+    "static/media/notetaker.png": "/sgenesi-portfolio/static/media/notetaker.ec444605.png",
+    "static/media/passwordgenerator.png": "/sgenesi-portfolio/static/media/passwordgenerator.c39879ea.png",
+    "static/media/runbuddy.png": "/sgenesi-portfolio/static/media/runbuddy.0b777354.png",
+    "static/media/simplifam.png": "/sgenesi-portfolio/static/media/simplifam.092b5b4d.png",
+    "static/media/sugarrush.png": "/sgenesi-portfolio/static/media/sugarrush.ffd1577d.png",
+    "static/media/weatherdashboard.png": "/sgenesi-portfolio/static/media/weatherdashboard.f58bd2bd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de230aee.js",
+    "static/js/2.5aa14986.chunk.js",
+    "static/css/main.d5d36eed.chunk.css",
+    "static/js/main.1928c8b3.chunk.js"
+  ]
+}
