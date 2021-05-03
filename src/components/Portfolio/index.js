@@ -42,7 +42,7 @@ function Portfolio() {
 			name: 'Note Taker',
 			description:
 				'Note Taker is an Express.js application that allows you to enter and save notes to keep yourself organized.',
-			image: 'notetake.png',
+			image: 'notetaker.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',

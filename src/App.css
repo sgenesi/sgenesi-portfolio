@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--secondary);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.font-link {
+  font-family: 'Playfair Display Fancy', serif;
+  font-family: 'Playfair Display', serif;
 }

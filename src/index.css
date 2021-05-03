@@ -5,11 +5,11 @@ main {
 }
 
 :root {
-	--primary: #499167;
-	--secondary: #2E282A;
-	--tertiary: #f0f2a6;
-	--quaternary: #39a9db;
-	--quinary: #bfd7ea;
+	--primary: #f2f2f2;
+	--secondary: #e96a96;
+	--tertiary: #81d7d4;
+	--quaternary: #ff7f6a;
+	--quinary: #77cfb7;
 	--light: #bfd7ea;
 	--dark: #353831;
 	--darker: #39a9db;
@@ -35,10 +35,8 @@ body {
 	line-height: 1.5;
 	font-size: 18px;
 	letter-spacing: .1em;
-	background: var(--dark);
-	color: var(--light);
-	/* font-family: 'Poiret One', cursive; */
-	font-family: 'Courier New', Courier, monospace;
+	background: var(--primary);
+	font-family: 'Playfair Display', Courier, monospace;
 }
 
 h1,
@@ -47,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display Fancy', serif;
 	font-weight: 500;
 	margin: 5px 0;
 	line-height: 1.25;
@@ -55,6 +53,7 @@ h6 {
 
 h1 {
 	font-size: 2.25rem;
+  color: var(--tertiary);
 }
 
 h2 {
@@ -83,7 +82,7 @@ p {
 }
 
 a {
-	color: red;
+	color: var(--dark);
 	text-decoration: none;
 	font-weight: bold;
 	border-radius: 5px;
@@ -95,6 +94,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
+  color: var(--secondary);
 }
 
 header {
@@ -103,14 +103,15 @@ header {
 	justify-content: space-between;
 	padding: 1rem;
 	text-align: center;
+  color: white;
 }
 
 header a {
-	color: var(--light);
+	color: white;
 }
 
 button {
-	background: var(--quaternary);
+	background: var(--tertiary);
 	border: 0;
 	border-radius: .5rem;
 	color: #fff;
@@ -154,7 +155,7 @@ input {
 }
 
 input:focus {
-	border: 1px solid var(--secondary);
+	border: 1px solid var(--dark);
 	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -281,7 +282,7 @@ textarea {
 }
 
 .navActive {
-	color: var(--primary);
+	color: var(--tertiary);
 }
 
 .footer {
@@ -324,7 +325,7 @@ textarea {
 }
 
 .page-header {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 2.5em;
 	font-weight: 500;
 	margin: 5px 0;
@@ -337,30 +338,31 @@ textarea {
 }
 
 .card {
-	width: 25%;
+	width: 30%;
 	text-align: center;
 }
 
 .card-title {
-	font-size: 1.5rem;
-	color: var(--quaternary);
+	font-size: 2rem;
+	color: var(--secondary);
+  font-weight: bold;
 }
 
 .card-subtitle {
-	font-size: 1rem;
-	color: var(--tertiary);
+	font-size: 1.25rem;
+	color: var(--secondary);
 }
 
 .card-text {
 	font-size: 0.75rem;
 	height: 8rem;
-	color: var(--quinary);
+	color: var(--dark);
 }
 
 .card-techs {
 	font-size: 0.75rem;
 	height: 4rem;
-	color: var(--quinary);
+	color: var(--dark);
 }
 
 .card-image {
@@ -369,8 +371,8 @@ textarea {
 }
 
 .card-link {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 0.70rem;
+	font-family: 'Playfair Display', serif;
+	font-size: 0.85rem;
 }
 
 .padding {
@@ -429,7 +431,7 @@ textarea {
 	textarea {
 		width: 350px;
 		height: 120px;
-		border: 3px solid #cccccc;
+		border: 3px solid var(--dark);
 		padding: 5px;
 	}
 
