@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Simplifica';
 }
 
 code {
@@ -43,7 +43,7 @@ body {
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--secondary);
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Simplifica';
 
 }
 
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Shadows Into Light', sans-serif;
+  font-family: 'Simplifica', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;

@@ -1,7 +1,8 @@
 import React from 'react';
-import '../App.css';
+// import '../App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
     return <div className='icons-list'>
         <a
@@ -21,12 +22,12 @@ function Footer() {
             <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a
-            className="fatwitter app-link social-media-list"
-            href="https://twitter.com/raghavi_adoni"
+            className="faInstagram app-link social-media-list"
+            href="https://www.instagram.com/sc_genesi/"
             target="_blank"
             rel="noopener noreferrer"
         >
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
     </div>
 }
