@@ -1,4 +1,5 @@
 import React from 'react';
+import Cover from '../../assets/images/cover.png';
 
 function About() {
     return (
@@ -8,7 +9,7 @@ function About() {
             </div>
             <div className="center">
                 <img
-                    src={require('../../assets/images/cover.png')}
+                    src={Cover}
                     alt="about-me"
                     className="photo"
                 />

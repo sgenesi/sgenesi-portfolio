@@ -4,6 +4,24 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
+			name: 'SimpliFam',
+			description:
+				'SimpliFam is a one stop shop where you can keep your family organized with a family calendar, grocery list, and chat app.',
+			image: 'simplifam.png',
+			technologies: [
+				'CSS',
+				'Node.js',
+				'MongoDB',
+				'React.js',
+				'Apollo',
+				'MERN Stack',
+				'GraphQL',
+				'Express.js'
+			],
+			github: 'https://github.com/sgenesi/sgenesi-portfolio',
+			deployed: 'https://simplifam.herokuapp.com/',
+		},
+		{
 			name: 'Budget Tracker',
 			description:
 				'This is a PWA that allows the user to track their money by adding expenses and deposits to their budget with or without an internet connection.',
