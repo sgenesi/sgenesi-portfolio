@@ -146,6 +146,14 @@ function Portfolio() {
 						<Project projects={projects[7]}></Project>
 					</li>
 				</ul>
+				<ul className="flex-row mobile-row">
+					<li className="padding">
+						<Project projects={projects[8]}></Project>
+					</li>
+					{/* <li className="padding">
+						<Project projects={projects[9]}></Project>
+					</li> */}
+				</ul>
 			</div>
 		</section>
 	);
