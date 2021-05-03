@@ -1,9 +1,22 @@
-import React from 'react';
-// import '../App.css';
+import React from "react";
+import Navigation from "../Navigation";
 
-function Header() {
-    return <div>
-        <h1 className="h3-text">Staci Genesi</h1>
-    </div>
+function Header(props) {
+    const { currentTab, setCurrentTab } = props;
+
+    return (
+        <header>
+            <div>
+                <h2>Staci Genesi</h2>
+            </div>
+            <div>
+                <Navigation
+                    currentTab={currentTab}
+                    setCurrentTab={setCurrentTab}
+                ></Navigation>
+            </div>
+        </header>
+    );
 }
+
 export default Header;
