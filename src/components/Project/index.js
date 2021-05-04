@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
+import Portfolio from '../Portfolio';
 
 function Project(props) {
     // This imports the information for the current project sent down.

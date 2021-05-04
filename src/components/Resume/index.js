@@ -1,4 +1,8 @@
 import React from "react";
+import Image from 'react-bootstrap/Image';
+import Front from '../../assets/images/resume1.png';
+import Page from '../../assets/images/resume2.png';
+
 
 function Resume() {
     return (
@@ -6,10 +10,11 @@ function Resume() {
             <div className="center">
                 <h1 className="page-header">My Resume</h1>
             </div>
-            <div className="bottom-spacing">
-                <a href={require("../../assets/files/Staci_Genesi.pdf")} download>
-                    <h4>Take a Peek at My Resume</h4>
-                </a>
+            <div>
+                <Image src={Front} fluid />
+            </div>
+            <div>
+                <Image src={Page} fluid />
             </div>
         </section>
     );
