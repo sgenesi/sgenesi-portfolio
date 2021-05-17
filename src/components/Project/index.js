@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
+
+
 // import Portfolio from '../Portfolio';
 
 function Project(props) {
@@ -30,14 +32,14 @@ function Project(props) {
 
     return (
         <Card style={{ width: "18rem" }}>
-            <Card.Img
-                variant="top"
-                src={require(`../../assets/images/${image}`)}
-                className="card-image"
-            />
             <div className="center">
                 <Card.Body>
                     <Card.Title className="card-title">{name}</Card.Title>
+                    <Card.Img
+                        variant="top"
+                        src={require(`../../assets/images/${image}`)}
+                        className="card-image"
+                    />
                     <Card.Text className="card-text">{description}</Card.Text>
                     <Card.Subtitle className="card-subtitle">Techs Used</Card.Subtitle>
                     <Card.Text className="card-techs">{getTechs(techs)}</Card.Text>

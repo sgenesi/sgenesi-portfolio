@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project';
 
+
 function Portfolio() {
 	const projects = [
 		{
@@ -145,14 +146,6 @@ function Portfolio() {
 					<li className="padding">
 						<Project projects={projects[7]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[8]}></Project>
-					</li>
-					{/* <li className="padding">
-						<Project projects={projects[9]}></Project>
-					</li> */}
 				</ul>
 			</div>
 		</section>
