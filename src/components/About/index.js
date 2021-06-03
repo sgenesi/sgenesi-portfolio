@@ -19,7 +19,7 @@ function About() {
                     My name is Staci Genesi and I am a newly minted web developer in the Salt Lake City,
                     Utah area. I am starting my web development career a little late in life after spending
                     10 years teaching kindergarten. I pride myself on being a creative person. I have
-                    excellent organization and planning skills, and I work very well with a mulitude of
+                    excellent organization and planning skills, and I work very well with a multitude of
                     personalities.
 				</p>
                 <p>
